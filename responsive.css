@@ -1,0 +1,83 @@
+@media (max-width: 600px) {
+  
+    .page1 {
+     
+     width: 100vw;
+     height: 100vh;
+      background-position: 80% 0%;
+
+      background-repeat: no-repeat; /* Repeat ko off karna */
+    }
+  }
+
+@media screen and (max-width: 600px) {
+  .page1 header {
+    padding: 1.5% 2%;
+    font-size: 11px;
+  }
+
+  .services {
+    display: none;
+  }
+
+  .logo {
+    width: 40vw;
+
+  }
+  .hero-page img {
+    height: 86vh;
+  }
+    .left {
+      width: 100%;
+      height: 100%;
+      margin-top: 30%;
+      margin-right: 0%;
+  }
+
+  .page1 nav {
+    padding: 0% 2%;
+    height: 5%;
+  }
+  .season-sale {
+    margin-top: 5%;
+  }
+
+  .season-sale h2 {
+    font-size: 40px;
+    font-style: italic;
+color: white;
+    
+  }
+
+  .season-sale h1 {
+    font-size: 55px;
+    color: yellow;
+    margin-top: 3%;
+    text-shadow: 2px 2px 2px rgb(53, 53, 50)
+  }
+
+  .season-sale h3 {
+    font-size: 40px;
+    margin-top: 3%;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(53, 53, 50)
+  }
+
+
+  button {
+    padding: 1.5% 4%;
+    font-size: 10px;
+  }
+
+  /* .icons{
+    margin-right: 5vw;
+  } */
+  .icons i {
+    font-size: 28px;
+    font-size: 500;
+  }
+
+  .ri-menu-line {
+    display: block
+  }
+}

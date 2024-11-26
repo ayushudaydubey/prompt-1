@@ -1,0 +1,214 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Geist", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  scrollbar-width: none;
+
+}
+
+.page1 {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(two-beautiful-women-stylish-faux-fur-coats-wool-scarf-posing-turquoise-wall.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+
+}
+
+.page1 header {
+  height: 5%;
+  width: 100%;
+  background-color: rgb(0, 132, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5% 4%;
+  font-size: 23px;
+}
+
+header .head-left {
+  display: flex;
+  width: 70%;
+
+  gap: 5%;
+}
+
+header a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font: 25px;
+}
+
+header .head-right {
+  display: flex;
+  width: 50%;
+  gap: 5%;
+
+
+  justify-content: end;
+  align-items: center;
+}
+.ri-menu-line{
+  display: none;
+}
+.page1 nav {
+  width: 100%;
+
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 254, 253, 0);
+  align-items: center;
+  padding: 1% 4%;
+}
+
+.logo {
+  background-image: url(body.png);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 20%;
+}
+
+.services {
+  display: flex;
+  gap: 8%;
+  margin-right: 25%;
+
+
+}
+
+.services a {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 500;
+  color: black;
+
+}
+.services a:hover{
+  color: rgb(4, 0, 255);
+  font-weight: 500;
+}
+.icons {
+  display: flex;
+  gap: 30px;
+}
+
+.icons i {
+
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.hero-page {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5% 2%;
+
+}
+
+.left {
+  width: 50%;
+  height: 100%;
+  margin-top: 10%;
+  margin-right: 5%;
+
+}
+
+.season-sale {
+  display: flex;
+  flex-direction: column;
+gap: 5%;
+  text-align: center;
+
+}
+
+.season-sale h2 {
+  font-size: 60px;
+  font-style: italic;
+  color: rgb(2, 0, 90);
+  font-weight: 600;
+  text-shadow: 10px 10px 10px rgb(78, 77, 77);
+  text-transform: capitalize;
+}
+
+.season-sale h1 {
+  font-size: 70px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-shadow: 10px 10px 10px rgb(78, 77, 77);
+  letter-spacing: 5px;
+
+}
+
+.season-sale h3 {
+  font-size: 45px;
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  color: rgb(2, 0, 90);
+  font-weight: 700;
+  text-shadow: 10px 10px 10px rgb(78, 77, 77);
+  text-transform: capitalize;
+
+}
+
+.shop-btn {
+  display: flex;
+  gap: 5%;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+button {
+  padding: 1.5% 2%;
+  font-size: 25px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 500;
+
+}
+
+.blue-btn {
+  background-color: rgb(24, 82, 255);
+  color: white;
+  border: none;
+  box-shadow: 2px 2px 5px rgb(0, 0, 0);
+
+
+}
+
+.blue-btn:hover,
+.white-btn:hover {
+  background-color: rgb(250, 112, 0);
+  color: rgb(255, 255, 255);
+  transition: all 0.5s 0.1s;
+  transform: scale(0.95);
+}
+
+.orrenge-btn:hover {
+  cursor: pointer;
+  color: rgb(17, 0, 255);
+
+}
+
+.white-btn {
+  color: rgb(24, 82, 255);
+  border: 2px solid rgb(24, 82, 255);
+  box-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.right {
+  width: 50%;
+  height: 100%;
+
+}
