@@ -95,7 +95,7 @@ header .head-right {
 
 }
 .services a:hover{
-  color: rgb(4, 0, 255);
+ transform: scale(0.95);
   font-weight: 500;
 }
 .icons {
@@ -108,6 +108,7 @@ header .head-right {
   font-size: 40px;
   font-weight: 500;
 }
+
 
 .hero-page {
   display: flex;
@@ -197,7 +198,7 @@ button {
 
 .orrenge-btn:hover {
   cursor: pointer;
-  color: rgb(17, 0, 255);
+ transform: scale(0.95);
 
 }
 
